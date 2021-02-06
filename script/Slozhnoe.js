@@ -1,9 +1,5 @@
 let num = 266219,
-  arr = [],
-  sNumber = num.toString();
-
-for (let i = 0, len = sNumber.length; i < len; i += 1) {
-  arr.push(+sNumber.charAt(i));
-}
-
-console.log(arr);
+  arr = num.toString().split('').reduce(function(a,b) {
+    return a * b;
+  })
+    console.log(String(arr ** 3).slice(0, 2));
