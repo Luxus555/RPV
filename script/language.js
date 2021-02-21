@@ -11,15 +11,17 @@ if (lang1 === 'en') {
 	alert(arr);
 }
 
-let lang2 = 'ru';
+let lang2 = 'ru',
+	arr2 = [];
 switch (lang2) {
 	case 'ru':
-		let arr = ['Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье'];
+		arr2 = ['Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье'];
 	break;
 	case 'en':
-		arr = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
-		alert(arr);
+		arr2 = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+		break;
 	}
+	alert(arr2);
 	
 
 let lang3 = 'ru',
