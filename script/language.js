@@ -1,14 +1,12 @@
-
+'use strict';
 
 let lang1 = 'en',
 	arr = [];
 
 if (lang1 === 'ru') {
-   let arr = ['Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье'];
-}
-if (lang1 === 'en') {
-    let arr = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
-	alert(arr);
+   console.log('Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье');
+} else if (lang1 === 'en') {
+    console.log('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday');
 }
 
 let lang2 = 'ru',
@@ -31,4 +29,9 @@ let lang3 = 'ru',
 };
 alert(day[lang3]);
 
-let namePerson;
+let namePerson = 'Иван';
+
+namePerson === 'Артем' ? console.log('Нашальникэ') : namePerson === 'Максим' ? console.log('Препод') : console.log('студент');
+
+
+
